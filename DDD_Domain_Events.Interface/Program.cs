@@ -6,7 +6,7 @@ using System;
 
 namespace DDD_Domain_Events.Interface
 {
-    class Program
+    internal class Program
     {
         static void Main(string[] args)
         {

@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.32106.194
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD_Domain_Events.Interface", "DDD_Domain_Events\DDD_Domain_Events.Interface.csproj", "{69DE3F5A-55D1-49BD-8221-D92FD780E9F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDD_Domain_Events.Domain", "DDD_Domain_Events.Domain\DDD_Domain_Events.Domain.csproj", "{AD31B8CA-46B8-478B-BEE7-C6F72C10AAC4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD_Domain_Events.Domain", "DDD_Domain_Events.Domain\DDD_Domain_Events.Domain.csproj", "{AD31B8CA-46B8-478B-BEE7-C6F72C10AAC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDD_Domain_Events.IoC", "DDD_Domain_Events.IoC\DDD_Domain_Events.IoC.csproj", "{BD211BE0-BC62-4A89-ABF1-FBB98F8D9F36}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD_Domain_Events.IoC", "DDD_Domain_Events.IoC\DDD_Domain_Events.IoC.csproj", "{BD211BE0-BC62-4A89-ABF1-FBB98F8D9F36}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD_Domain_Events.Interface", "DDD_Domain_Events.Interface\DDD_Domain_Events.Interface.csproj", "{6A245DF6-799C-46D9-84C5-3C953E437EB1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +15,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{69DE3F5A-55D1-49BD-8221-D92FD780E9F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{69DE3F5A-55D1-49BD-8221-D92FD780E9F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{69DE3F5A-55D1-49BD-8221-D92FD780E9F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{69DE3F5A-55D1-49BD-8221-D92FD780E9F4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AD31B8CA-46B8-478B-BEE7-C6F72C10AAC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AD31B8CA-46B8-478B-BEE7-C6F72C10AAC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD31B8CA-46B8-478B-BEE7-C6F72C10AAC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -27,6 +23,10 @@ Global
 		{BD211BE0-BC62-4A89-ABF1-FBB98F8D9F36}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD211BE0-BC62-4A89-ABF1-FBB98F8D9F36}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD211BE0-BC62-4A89-ABF1-FBB98F8D9F36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A245DF6-799C-46D9-84C5-3C953E437EB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A245DF6-799C-46D9-84C5-3C953E437EB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A245DF6-799C-46D9-84C5-3C953E437EB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A245DF6-799C-46D9-84C5-3C953E437EB1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
